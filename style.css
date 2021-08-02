@@ -1,0 +1,32 @@
+body{
+    background-color: crimson;
+    text-align: center;
+    font-family: fantasy;
+}
+img{
+    border-radius: 50%;
+    height: 300px;
+    width: 250px;
+}
+.menu{
+    list-style: none;
+    font-family: monospace;
+    font-size: 20px;
+    position: fixed;
+    z-index: 10;
+    top: 10px;
+    right: 20px;
+}
+.links{
+    float: left;
+    padding: 30px;  
+}
+.links:hover{
+    background-color: aquamarine;
+    cursor: pointer;
+}
+.line{
+    height: 6px;
+    width: 70px;
+    background-color: black;
+    margin: 8px auto;
